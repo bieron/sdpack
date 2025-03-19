@@ -8,4 +8,4 @@ Right now it offers just the rudimentary TCP ingestion at 0.0.0.0:7312 that gets
 bin/cribl nc -p 2137 -o
 ``` 
 
-Have thoughts or bug reports? Contact the Control Plane team at on [#proj-config-mp](https://cribl.enterprise.slack.com/archives/C07AA4AMYB1)
+Have thoughts or bug reports? Contact the Control Plane team at on [#proj-config-mp](https://cribl.enterprise.slack.com/archives/C07AA4AMYB1).
