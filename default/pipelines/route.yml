@@ -12,4 +12,4 @@ routes:
     outputExpression: null
     filter: "true"
     clones: []
-    output: default
+    output: packOut

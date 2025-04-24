@@ -1,1 +1,10 @@
 inputs:
+  packed:
+    disabled: false
+    sendToRoutes: true
+    pqEnabled: false
+    streamtags: []
+    samples:
+      - eventsPerSec: 10
+        sample: business_event
+    type: datagen
