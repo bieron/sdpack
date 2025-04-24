@@ -1,2 +1,26 @@
 outputs:
-
+  packOut:
+    systemFields:
+      - cribl_pipe
+    loadBalanced: true
+    compression: none
+    logFailedRequests: false
+    throttleRatePerSec: "0"
+    tls:
+      disabled: true
+    connectionTimeout: 10000
+    writeTimeout: 60000
+    tokenTTLMinutes: 60
+    sendHeader: true
+    onBackpressure: block
+    authType: manual
+    excludeSelf: false
+    hosts:
+      - tls: inherit
+        weight: 1
+        host: 0.0.0.0
+        port: 2137
+    dnsResolvePeriodSec: 600
+    loadBalanceStatsPeriodSec: 300
+    maxConcurrentSenders: 0
+    type: tcpjson
